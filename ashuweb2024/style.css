@@ -1,0 +1,10 @@
+.circle {
+    size: 80px;
+    width: 80px;
+    background-color: rgb(186, 63, 63) ;
+    border-radius: 100px;
+}
+
+.service {
+    border bottom: 30px; 
+}
