@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basket Ball Score</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container-900">
+      <h1>Team Scorboard</h1>
+      <div class="scoreboard">
+        <ul class="teams">
+          <li>
+            <h2>Home</h2>
+            <p id="js__homeScore">0</p>
+            <ul class="scores">
+              <li>
+                <a
+                  href="javascript:void(0);"
+                  title="Plus Home Score by 1"
+                  onclick="homeOne()"
+                  >+1</a
+                >
+              </li>
+              <li>
+                <a
+                  href="javascript:void(0);"
+                  title="Plus Home Score by 2"
+                  onclick="homeTwo()"
+                  >+2</a
+                >
+              </li>
+              <li>
+                <a
+                  href="javascript:void(0);"
+                  title="Plus Home Score by 3"
+                  onclick="homeThree()"
+                  >+3</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h2>Guest</h2>
+            <p id="js__guestScore">0</p>
+            <ul class="scores">
+              <li>
+                <a
+                  href="javascript:void(0);"
+                  title="Plus Guest Score by 1"
+                  onclick="guestOne()"
+                  >+1</a
+                >
+              </li>
+              <li>
+                <a
+                  href="javascript:void(0);"
+                  title="Plus Guest Score by 2"
+                  onclick="guestTwo()"
+                  >+2</a
+                >
+              </li>
+              <li>
+                <a
+                  href="javascript:void(0);"
+                  title="Plus Guest Score by 3"
+                  onclick="guestThree()"
+                  >+3</a
+                >
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <a class="btn-reset" href="javascript:void(0);" title="Reset Score" onclick="reset()"
+          >Reset</a
+        >
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
